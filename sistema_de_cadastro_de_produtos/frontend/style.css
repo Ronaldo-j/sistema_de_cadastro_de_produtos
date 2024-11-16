@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.table td button {
+    padding: 5px 10px;
+    margin: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.table td button.editar {
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+}
+
+.table td button.deletar {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+}
+
+.quantidade-btn {
+    background-color: #6c757d; /* Cor de fundo cinza */
+    color: #fff; /* Cor do texto branco */
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 3px; /* Espaçamento entre os botões e o número */
+}
+
+.quantidade-btn:hover {
+    background-color: #5a6268; /* Cor um pouco mais escura ao passar o mouse */
+}
